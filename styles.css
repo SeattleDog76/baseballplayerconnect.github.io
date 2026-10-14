@@ -43,3 +43,12 @@ footer { padding: 34px 0; background: #fff; border-top: 1px solid var(--border);
   .grid { grid-template-columns: 1fr; }
   .legal { margin: 24px auto; padding: 24px; }
 }
+
+/* App downloads */
+.download-actions { display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; margin: 32px 0 16px; }
+.app-store-link { display: inline-flex; border-radius: 10px; }
+.app-store-link img { display: block; width: 180px; height: 60px; }
+.app-store-link:hover { opacity: .85; }
+a:focus-visible { outline: 3px solid var(--primary); outline-offset: 5px; }
+.hero .platform-note { font-size: 1rem; margin-bottom: 18px; }
+.hero .android-note { max-width: 560px; font-size: 1rem; margin-bottom: 0; padding: 14px 20px; border: 1px solid #bfdbfe; border-radius: 12px; background: #eff6ff; color: #1e3a8a; }
